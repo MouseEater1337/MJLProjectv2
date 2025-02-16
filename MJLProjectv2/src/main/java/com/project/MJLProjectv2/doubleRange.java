@@ -4,7 +4,6 @@ import jakarta.persistence.Embeddable;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
 @Embeddable
 @NoArgsConstructor
 public class doubleRange {
@@ -30,6 +29,14 @@ public class doubleRange {
       minVal = Math.min(minVal, d);
       maxVal = Math.max(maxVal, d);
     }
+  }
+
+  public double getMinVal() {
+    return minVal;
+  }
+
+  public double getMaxVal() {
+    return maxVal;
   }
 
   public String toString() {
