@@ -4,6 +4,9 @@ package com.project.MJLProjectv2.Controller;
 import com.project.MJLProjectv2.doubleRange;
 import com.project.MJLProjectv2.Entity.Dorm;
 import com.project.MJLProjectv2.Service.DormService;
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -33,18 +36,33 @@ public class DormController {
 //  }
 
   @GetMapping("/type/{type}/price/{price}/southeast/{southeast}")
-  public Dorm[] getDorms(@PathVariable("type") String type, @PathVariable("priceRange") doubleRange priceRange,
+  public List<Dorm> getDorms(@PathVariable("type") String type, @PathVariable("price") double price,
       @PathVariable("southeast") boolean southeast) {
-    return dormService.getDorms(type, priceRange.getMinVal(), southeast);
+    return dormService.getDorms(type, price, southeast);
   }
 
+  // @GetMapping("/type/{type}")
+  // public List<Dorm> getDorms(@PathVariable("type") String type, @RequestBody doubleRange priceRange) {
+  //   return dormService.getDorms(type, priceRange.getMinVal());
+  // }  
+
   @GetMapping("/type/{type}/price/{price}")
-  public Dorm[] getDorms(@PathVariable("type") String type, @PathVariable("priceRange") doubleRange priceRange) {
-    return dormService.getDorms(type, priceRange.getMinVal());
+  public List<Dorm> getDorms(@PathVariable("type") String type, @PathVariable("price") double price) {
+    return dormService.getDorms(type, price);
+  } 
+
+  @GetMapping("/price/{price}/southeast/{southeast}")
+  public List<Dorm> getDorms(@PathVariable("price") double price, @PathVariable("southeast") boolean southeast) {
+    return dormService.getDorms(price, southeast);
+  } 
+
+  @GetMapping("/price/{price}")
+  public List<Dorm> getDorms(@PathVariable("price") double price) {
+    return dormService.getDorms(price);
   }
 
   @GetMapping("/retrieveDorm/all")
-  public Dorm[] getDorms() {
+  public List<Dorm> getDorms() {
     return dormService.getAllDorms();
   }
   // public Dorm[] getDorm(@)

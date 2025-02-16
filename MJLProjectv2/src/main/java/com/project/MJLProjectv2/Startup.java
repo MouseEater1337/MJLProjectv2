@@ -66,6 +66,10 @@ public class Startup {
     return Double.parseDouble(s.replace(",", ""));
   }
 
+  private boolean readBoolean(String s) {
+    return (s.toLowerCase()).equals("true");
+  }
+
   private void readData(String filename) {
     /*
     Scanner in;
@@ -95,7 +99,7 @@ public class Startup {
               String name = parsedLine[0];
               String type = (new StringTokenizer(parsedLine[1])).nextToken();
               double price = readDouble(parsedLine[2]);
-              boolean isSoutheast = Boolean.parseBoolean(parsedLine[3]);
+              boolean isSoutheast = readBoolean(parsedLine[4]);
               String code = (name + type).trim();
               System.out.println(code);
               if(!map.keySet().contains(code)) {

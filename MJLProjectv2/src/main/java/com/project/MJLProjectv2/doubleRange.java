@@ -13,6 +13,7 @@ public class doubleRange {
 
   public doubleRange(double min) {
     minVal = min;
+    maxVal  = min;
   }
 
   public void addValue(double d) {
@@ -44,7 +45,7 @@ public class doubleRange {
     if(minVal != null) {
       output += minVal;
     }
-    if(maxVal != null) {
+    if(maxVal != minVal) {
       output += " - " + maxVal;
     }
     return output;

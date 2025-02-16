@@ -3,6 +3,9 @@ package com.project.MJLProjectv2.Service;
 import com.project.MJLProjectv2.doubleRange;
 import com.project.MJLProjectv2.Entity.Dorm;
 import com.project.MJLProjectv2.Repository.DormRepository;
+
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -49,15 +52,23 @@ public class DormService {
   }
     */
 
-  public Dorm[] getDorms(String type, double price, boolean isSoutheast) {
+  public List<Dorm> getDorms(String type, double price, boolean isSoutheast) {
     return dormRepository.findAllByTypeAndPriceLessThanEqualAndIsSoutheast(type, price, isSoutheast);
   }
 
-  public Dorm[] getDorms(String type, double price) {
+  public List<Dorm> getDorms(String type, double price) {
     return dormRepository.findAllByTypeAndPriceLessThanEqual(type, price);
   }
 
-  public Dorm[] getAllDorms() {
-    return ((Dorm[]) dormRepository.findAll().toArray());
+  public List<Dorm> getDorms(double price, boolean isSoutheast) {
+    return dormRepository.findAllByPriceLessThanEqualAndIsSoutheast(price, isSoutheast);
+  }
+
+  public List<Dorm> getDorms(double price) {
+    return dormRepository.findAllByPriceLessThanEqual(price);
+  }
+
+  public List<Dorm> getAllDorms() {
+    return dormRepository.findAll();
   }
 }

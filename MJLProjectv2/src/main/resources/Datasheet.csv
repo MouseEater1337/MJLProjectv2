@@ -1,87 +1,87 @@
+Adams,Single Type A,"4,400.00","8,800.00",FALSE
+Adams,Single Type B,"4,100.00","8,200.00",FALSE
+Adams,Double Type A,"4,200.00","8,400.00",FALSE
+Adams,Double Type B,"3,800.00","7,600.00",FALSE
 Adams,Triple,"3,550.00","7,100.00",FALSE
+Barnard,Single,"4,400.00","8,800.00",TRUE
+Barnard,Double Type A,"3,900.00","7,800.00",TRUE
+Barnard,Double Type B,"4,200.00","8,400.00",TRUE
+Barnard,Double with Bath,"4,350.00","8,700.00",TRUE
+Bradley,Double,"3,800.00","7,600.00",FALSE
+Bradley,Double,"3,925.00","7,850.00",FALSE
 Bradley,Quad,"3,550.00","7,100.00",FALSE
-Sullivan,Quad,"3,550.00","7,100.00",FALSE
-Tripp,Triple,"3,550.00","7,100.00",FALSE
+Bradley,Quad,"3,675.00","7,350.00",FALSE
+Chadbourne,Double,"4,225.00","8,450.00",TRUE
+Chadbourne,Triple,"3,825.00","7,650.00",TRUE
+Cole,Single,"4,400.00","8,800.00",FALSE
+Cole,Double,"3,800.00","7,600.00",FALSE
+Cole,Double,"3,925.00","7,850.00",FALSE
+Cole,Quad,"3,675.00","7,350.00",FALSE
+Dejope,Double,"4,400.00","8,800.00",FALSE
 Dejope,Triple,"3,750.00","7,500.00",FALSE
 Dejope,Quad,"3,750.00","7,500.00",FALSE
-Leopold,Triple,"3,750.00","7,500.00",FALSE
-Leopold,Quad,"3,750.00","7,500.00",FALSE
-Ogg,Triple,"3,750.00","7,500.00",FALSE
-Sellery,Quad,"3,750.00","7,500.00",TRUE
-Smith,Triple,"3,750.00","7,500.00",TRUE
-Witte,Quad,"3,750.00","7,500.00",TRUE
-Adams,Double Type B,"3,800.00","7,600.00",FALSE
-Bradley,Double,"3,800.00","7,600.00",FALSE
-Cole,Double,"3,800.00","7,600.00",FALSE
 Humphrey,Double,"3,800.00","7,600.00",FALSE
 Jorns,Double,"3,800.00","7,600.00",FALSE
 Kronshage,Double,"3,800.00","7,600.00",FALSE
-Lowell,Double with Shared Bath,"3,800.00","7,600.00",TRUE
-Slichter,Double,"3,800.00","7,600.00",FALSE
-Sullivan,Double,"3,800.00","7,600.00",FALSE
-Tripp,Double Type B,"3,800.00","7,600.00",FALSE
-Barnard,Double Type A,"3,900.00","7,800.00",TRUE
-Lowell,Triple with Bath Type B,"3,900.00","7,800.00",TRUE
-Merit,Triple with Bath,"3,900.00","7,800.00",TRUE
-Waters,Double,"3,900.00","7,800.00",FALSE
-Sellery,Triple,"4,050.00","8,100.00",TRUE
-Adams,Single Type B,"4,100.00","8,200.00",FALSE
-Lowell,Triple with Bath Type A,"4,100.00","8,200.00",TRUE
-Merit,Single,"4,100.00","8,200.00",TRUE
-Smith,Double Type B,"4,100.00","8,200.00",TRUE
-Tripp,Single Type B,"4,100.00","8,200.00",FALSE
-Adams,Double Type A,"4,200.00","8,400.00",FALSE
-Barnard,Double Type B,"4,200.00","8,400.00",TRUE
-Lowell,Single with Shared Bath,"4,200.00","8,400.00",TRUE
-Sellery,Double,"4,200.00","8,400.00",TRUE
-Witte,Double,"4,200.00","8,400.00",TRUE
-Barnard,Double with Bath,"4,350.00","8,700.00",TRUE
-Merit,Double with Bath,"4,350.00","8,700.00",TRUE
-Phillips,Double with Bath,"4,350.00","8,700.00",FALSE
-Slichter,Double with Bath,"4,350.00","8,700.00",FALSE
-Waters,Double with Bath,"4,350.00","8,700.00",FALSE
-Adams,Single Type A,"4,400.00","8,800.00",FALSE
-Barnard,Single,"4,400.00","8,800.00",TRUE
-Cole,Single,"4,400.00","8,800.00",FALSE
-Dejope,Double,"4,400.00","8,800.00",FALSE
-Leopold,Double,"4,400.00","8,800.00",FALSE
-Sellery,Single,"4,400.00","8,800.00",TRUE
-Smith,Single Type B,"4,400.00","8,800.00",TRUE
-Smith,Double Type A,"4,400.00","8,800.00",TRUE
-Tripp,Single Type A,"4,400.00","8,800.00",FALSE
-Waters,Single,"4,400.00","8,800.00",FALSE
-Witte,Single,"4,400.00","8,800.00",TRUE
-Lowell,Double with Bath,"4,500.00","9,000.00",TRUE
-Ogg,Double with Bath,"4,500.00","9,000.00",TRUE
-Phillips,Single with Bath,"4,500.00","9,000.00",FALSE
-Smith,Double with Bath,"4,500.00","9,000.00",TRUE
-Smith,Single Type A,"4,800.00","9,600.00",TRUE
-Lowell,Single with Bath,"4,950.00","9,900.00",TRUE
-Smith,Single with Bath,"4,950.00","9,900.00",TRUE
-Cole,Quad,"3,675.00","7,350.00",FALSE
-Cole,Double,"3,925.00","7,850.00",FALSE
-Ogg,Triple,"3,750.00","7,500.00",FALSE
-Ogg,Double with Bath,"4,500.00","9,000.00",FALSE
-Chadbourne,Triple,"3,825.00","7,650.00",TRUE
-Chadbourne,Double,"4,225.00","8,450.00",TRUE
-Leopold,Triple,"3,875.00","7,750.00",FALSE
-Leopold,Double,"4,525.00","9,050.00",FALSE
 Kronshage,Double,"3,925.00","7,850.00",FALSE
-Witte,Quad,"3,875.00","7,750.00",TRUE
-Witte,Double,"4,325.00","8,650.00",TRUE
-Witte,Single,"4,525.00","9,050.00",TRUE
-Phillips,Double with Bath,"4,475.00","8,950.00",FALSE
+Leopold,Double,"4,400.00","8,800.00",FALSE
+Leopold,Double,"4,525.00","9,050.00",FALSE
+Leopold,Triple,"3,750.00","7,500.00",FALSE
+Leopold,Triple,"3,875.00","7,750.00",FALSE
+Leopold,Quad,"3,750.00","7,500.00",FALSE
+Lowell,Single with Bath,"4,950.00","9,900.00",TRUE
+Lowell,Single with Shared Bath,"4,200.00","8,400.00",TRUE
+Lowell,Double with Bath,"4,500.00","9,000.00",TRUE
+Lowell,Double with Shared Bath,"3,800.00","7,600.00",TRUE
+Lowell,Triple with Bath Type A,"4,100.00","8,200.00",TRUE
+Lowell,Triple with Bath Type B,"3,900.00","7,800.00",TRUE
+Merit,Single,"4,100.00","8,200.00",TRUE
+Merit,Double with Bath,"4,350.00","8,700.00",TRUE
+Merit,Triple with Bath,"3,900.00","7,800.00",TRUE
+Ogg,Double with Bath,"4,500.00","9,000.00",TRUE
+Ogg,Double with Bath,"4,500.00","9,000.00",TRUE
+Ogg,Triple,"3,750.00","7,500.00",TRUE
+Ogg,Triple,"3,750.00","7,500.00",TRUE
+Phillips,Single with Bath,"4,500.00","9,000.00",FALSE
 Phillips,Single with Bath,"4,625.00","9,250.00",FALSE
-Bradley,Quad,"3,675.00","7,350.00",FALSE
-Bradley,Double,"3,925.00","7,850.00",FALSE
-Sellery,Quad,"3,875.00","7,750.00",TRUE
-Sellery,Triple,"4,175.00","8,350.00",TRUE
-Sellery,Double,"4,325.00","8,650.00",TRUE
+Phillips,Double with Bath,"4,350.00","8,700.00",FALSE
+Phillips,Double with Bath,"4,475.00","8,950.00",FALSE
+Sellery,Single,"4,400.00","8,800.00",TRUE
 Sellery,Single,"4,525.00","9,050.00",TRUE
-Sellery,Quad,"3,887.50","7,775.00",TRUE
-Sellery,Triple,"4,187.50","8,375.00",TRUE
-Sellery,Double,"4,337.50","8,675.00",TRUE
 Sellery,Single,"4,537.50","9,075.00",TRUE
-Waters,Double,"4,025.00","8,050.00",FALSE
+Sellery,Double,"4,200.00","8,400.00",TRUE
+Sellery,Double,"4,325.00","8,650.00",TRUE
+Sellery,Double,"4,337.50","8,675.00",TRUE
+Sellery,Triple,"4,050.00","8,100.00",TRUE
+Sellery,Triple,"4,175.00","8,350.00",TRUE
+Sellery,Triple,"4,187.50","8,375.00",TRUE
+Sellery,Quad,"3,750.00","7,500.00",TRUE
+Sellery,Quad,"3,875.00","7,750.00",TRUE
+Sellery,Quad,"3,887.50","7,775.00",TRUE
+Slichter,Double,"3,800.00","7,600.00",FALSE
+Slichter,Double with Bath,"4,350.00","8,700.00",FALSE
+Smith,Single Type A,"4,800.00","9,600.00",TRUE
+Smith,Single Type B,"4,400.00","8,800.00",TRUE
+Smith,Single with Bath,"4,950.00","9,900.00",TRUE
+Smith,Double Type A,"4,400.00","8,800.00",TRUE
+Smith,Double Type B,"4,100.00","8,200.00",TRUE
+Smith,Double with Bath,"4,500.00","9,000.00",TRUE
+Smith,Triple,"3,750.00","7,500.00",TRUE
+Sullivan,Double,"3,800.00","7,600.00",FALSE
+Sullivan,Quad,"3,550.00","7,100.00",FALSE
+Tripp,Single Type A,"4,400.00","8,800.00",FALSE
+Tripp,Single Type B,"4,100.00","8,200.00",FALSE
+Tripp,Double Type B,"3,800.00","7,600.00",FALSE
+Tripp,Triple,"3,550.00","7,100.00",FALSE
+Waters,Single,"4,400.00","8,800.00",FALSE
 Waters,Single,"4,525.00","9,050.00",FALSE
 Waters,Single with Bath,"4,625.00","9,250.00",FALSE
+Waters,Double,"3,900.00","7,800.00",FALSE
+Waters,Double,"4,025.00","8,050.00",FALSE
+Waters,Double with Bath,"4,350.00","8,700.00",FALSE
+Witte,Single,"4,400.00","8,800.00",TRUE
+Witte,Single,"4,525.00","9,050.00",TRUE
+Witte,Double,"4,200.00","8,400.00",TRUE
+Witte,Double,"4,325.00","8,650.00",TRUE
+Witte,Quad,"3,750.00","7,500.00",TRUE
+Witte,Quad,"3,875.00","7,750.00",TRUE

@@ -2,6 +2,9 @@ package com.project.MJLProjectv2.Repository;
 
 
 import com.project.MJLProjectv2.Entity.Dorm;
+
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -26,15 +29,17 @@ public interface DormRepository extends JpaRepository<Dorm, Integer> {
   */
 
   //find by all
-  Dorm[] findAllByTypeAndPriceLessThanEqualAndIsSoutheast(String type, double price, boolean isSoutheast);
+  List<Dorm> findAllByTypeAndPriceLessThanEqualAndIsSoutheast(String type, double price, boolean isSoutheast);
 
   //find by all but southeast
-  Dorm[] findAllByTypeAndPriceLessThanEqual(String type, double price);
+  List<Dorm> findAllByTypeAndPriceLessThanEqual(String type, double price);
   //Can write really complex queries with native MySQL like so - search up Spring custom queries for more
   //@Query(nativeQuery = true, value = "Complex MySQL Query Here")
   //Dog findByNameAndBreedIsLike(String name, String breed);
 
+  List<Dorm> findAllByPriceLessThanEqual(double price);
 
+  List<Dorm> findAllByPriceLessThanEqualAndIsSoutheast(double price, boolean isSoutheast);
 
 
 }
