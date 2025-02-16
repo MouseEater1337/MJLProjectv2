@@ -12,9 +12,10 @@ public interface DormRepository extends JpaRepository<Dorm, Integer> {
 
 
   //Search up Spring JPA Naming Conventions for more details
-  Dorm findByName(String name);
+  //Dorm findByName(String name);
 
   //find by dorm type
+  /*
   Dorm[] findAllByDormType(String type);
 
   //find by budget
@@ -22,7 +23,13 @@ public interface DormRepository extends JpaRepository<Dorm, Integer> {
 
   //find by southeast/lakeshore
   Dorm[] findAllByTypeSoutheast(boolean type);
+  */
 
+  //find by all
+  Dorm[] findAllByTypeAndPriceLessThanEqualAndIsSoutheast(String type, double price, boolean isSoutheast);
+
+  //find by all but southeast
+  Dorm[] findAllByTypeAndPriceLessThanEqual(String type, double price);
   //Can write really complex queries with native MySQL like so - search up Spring custom queries for more
   //@Query(nativeQuery = true, value = "Complex MySQL Query Here")
   //Dog findByNameAndBreedIsLike(String name, String breed);

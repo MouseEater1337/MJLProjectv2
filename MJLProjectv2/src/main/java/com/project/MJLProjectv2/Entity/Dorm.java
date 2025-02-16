@@ -1,5 +1,7 @@
 package com.project.MJLProjectv2.Entity;
 
+import com.project.MJLProjectv2.doubleRange;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,6 +12,7 @@ import lombok.NoArgsConstructor;
 @Data //generate toString, getters, and setters
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "dorm.table")
 public class Dorm {
   @Id
@@ -24,10 +27,13 @@ public class Dorm {
   @Column(name = "type", nullable = false)
   private String type;
 
-  @Column (name = "price", nullable = false)
-  private double price;
+  @Column (name = "priceRange", nullable = false)
+  @Embedded
+  private doubleRange priceRange;
 
   @Column(name = "isSoutheast", nullable = false)
-  boolean isSoutheast;
+  private boolean isSoutheast;
 
+  @Column(name = "price", nullable = false)
+  private double price;
 }
